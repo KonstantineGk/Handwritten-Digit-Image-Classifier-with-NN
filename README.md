@@ -17,4 +17,7 @@ Description:
 4) sigmoid_der: Define the sigmoid derivative.
 5) relu: Define ReLu.
 6) relu_der: Define the ReLu derivative. After vectorize for use with np.arrays.
-7) 
+7) cross_Entropy: Define Cross Entropy Loss function
+8) cross_E_grad: Cross Entropy derivative
+9) main: Train network, Plot Loss, calculate error
+
