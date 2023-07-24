@@ -7,17 +7,14 @@ The model was trained on a dataset of 10,000 images and achieved high accuracy w
 This project was developed for the Machine Learning Course (University of Patras).
 First to run load_mnist.py:
 1) Download the 't10k-images.idx3-ubyte','t10k-labels.idx1-ubyte','train-images.idx3-ubyte,'train-labels.idx1-ubyte'.
-2) Put the files and script into the same directory.
-3) By running you save only the data and labels for 0s and 8s( you change this) into txt files.
+2) Put the files and script into the same file and change the adress where is needed.
+3) By running you save only the data and labels for 0s and 8s( you change this) into csv files.
 
+Afterwards to run Main.py change adress where is needed.
 Description:
-1) Load the data from before.
-2) predict: Define the front propagation of the NN to use after trainning.
-3) sigmoid: Define the sigmoid function.
-4) sigmoid_der: Define the sigmoid derivative.
-5) relu: Define ReLu.
-6) relu_der: Define the ReLu derivative. After vectorize for use with np.arrays.
-7) cross_Entropy: Define Cross Entropy Loss function
-8) cross_E_grad: Cross Entropy derivative
-9) main: Train network, Plot Loss, calculate error
-
+1) load_mnist.py: Load the MNIST data files and saves to csv.
+2) Load_CSV_file.py: Load Images from CSV for trainning and testing.
+3) ML_fun.py: It contains Sigmoid, ReLu and their derivatives.
+4) Cross_Entropy.py: It contains the Cross Entropy Loss function and the derivative.
+5) NN_Test.py: Use the trainned parameters to find the percent error rate of the Network.
+6) Main.py: Initialize and Train the Neural Network.
